@@ -15,3 +15,32 @@
     /* background-color: rgb(214, 47, 47); */
     filter: drop-shadow(2px 4px 6px black);
 }
+ 
+    @media (min-width:600px){
+        .topnavbar{
+            box-shadow: 0 0 50px gold !important;
+        }
+    }
+
+
+    /* دکمه ی Adduser  */
+    .btn1{                                      
+        width:100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 10px;
+        border-radius: 5rem;
+        flex: center;
+    }
+
+    /* دیو  یک مربوط به دکمه ی اد  یوزر  */
+    .div1{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .search1{
+        position: relative;
+        top:7px;
+    }
