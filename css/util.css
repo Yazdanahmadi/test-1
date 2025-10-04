@@ -1,0 +1,429 @@
+/* 🎯 فاصله بیرونی (margin) */
+.m-0 {
+  margin: 0 !important;
+}
+.m-5 {
+  margin: 5px !important;
+}
+.m-10 {
+  margin: 10px !important;
+}
+.m-20 {
+  margin: 20px !important;
+}
+
+/* 🎯 فاصله داخلی (padding) */
+.p-0 {
+  padding: 0 !important;
+}
+.p-5 {
+  padding: 5px !important;
+}
+.p-10 {
+  padding: 10px !important;
+}
+.p-20 {
+  padding: 20px !important;
+}
+
+/* 🎯 فقط بالا، پایین، چپ، راست */
+.mt-10 {
+  margin-top: 10px !important;
+}
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+.ml-10 {
+  margin-left: 10px !important;
+}
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+.pt-10 {
+  padding-top: 10px !important;
+}
+.pb-10 {
+  padding-bottom: 10px !important;
+}
+.pl-10 {
+  padding-left: 10px !important;
+}
+.pr-10 {
+  padding-right: 10px !important;
+}
+
+/* ===== 🎨 سایز متن‌ها ===== */
+.text-xs {
+  font-size: 12px !important;
+} /* متن خیلی کوچک */
+.text-sm {
+  font-size: 14px !important;
+} /* متن کوچک */
+.text-md {
+  font-size: 16px !important;
+} /* متن متوسط (پیش‌فرض مرورگر) */
+.text-lg {
+  font-size: 20px !important;
+} /* متن بزرگ */
+.text-xl {
+  font-size: 24px !important;
+} /* متن خیلی بزرگ */
+.text-xxl {
+  font-size: 32px !important;
+} /* متن خیلی خیلی بزرگ */
+
+/* ===== 🎨 رنگ متن‌ها ===== */
+.text-white {
+  color: #fff !important;
+} /* متن سفید */
+.text-black {
+  color: #000 !important;
+} /* متن مشکی */
+.text-gray {
+  color: #777 !important;
+} /* متن خاکستری */
+.text-red {
+  color: red !important;
+} /* متن قرمز */
+.text-blue {
+  color: blue !important;
+} /* متن آبی */
+.text-green {
+  color: green !important;
+} /* متن سبز */
+.text-gold {
+  color: gold !important;
+} /* متن طلایی */
+
+/* ===== 🎨 ترازبندی متن ===== */
+.text-left {
+  text-align: left !important;
+} /* ترازبندی متن به چپ */
+.text-center {
+  text-align: center !important;
+} /* ترازبندی متن وسط */
+.text-right {
+  text-align: right !important;
+} /* ترازبندی متن به راست */
+
+/* ===== 🎨 رنگ پس‌زمینه ===== */
+.bg-white {
+  background-color: #fff !important;
+} /* پس‌زمینه سفید */
+.bg-black {
+  background-color: #000 !important;
+} /* پس‌زمینه مشکی */
+.bg-gray {
+  background-color: #f1f1f1 !important;
+} /* پس‌زمینه خاکستری روشن */
+.bg-dark {
+  background-color: #333 !important;
+} /* پس‌زمینه خاکستری تیره */
+.bg-red {
+  background-color: red !important;
+} /* پس‌زمینه قرمز */
+.bg-blue {
+  background-color: blue !important;
+} /* پس‌زمینه آبی */
+.bg-green {
+  background-color: green !important;
+} /* پس‌زمینه سبز */
+.bg-gold {
+  background-color: gold !important;
+} /* پس‌زمینه طلایی */
+
+/* ===== 📐 Flexbox – ترازبندی سریع ===== */
+.d-flex {
+  display: flex !important;
+} /* فعال‌کردن flexbox */
+.flex-row {
+  flex-direction: row !important;
+} /* بچه‌ها در یک ردیف افقی */
+.flex-col {
+  flex-direction: column !important;
+} /* بچه‌ها در یک ستون عمودی */
+.flex-wrap {
+  flex-wrap: wrap !important;
+} /* المان‌ها بشکنند و به خط بعد بروند */
+.justify-start {
+  justify-content: flex-start !important;
+} /* ترازبندی به چپ */
+.justify-center {
+  justify-content: center !important;
+} /* ترازبندی وسط افقی */
+.justify-end {
+  justify-content: flex-end !important;
+} /* ترازبندی به راست */
+.justify-between {
+  justify-content: space-between !important;
+} /* فاصله مساوی بین المان‌ها */
+.justify-around {
+  justify-content: space-around !important;
+} /* فاصله اطراف المان‌ها */
+.align-start {
+  align-items: flex-start !important;
+} /* ترازبندی عمودی بالا */
+.align-center {
+  align-items: center !important;
+} /* ترازبندی عمودی وسط */
+.align-end {
+  align-items: flex-end !important;
+} /* ترازبندی عمودی پایین */
+
+/* ===== 🎯 مرکز کامل (افقی + عمودی) ===== */
+.center-all {
+  display: flex !important; /* فعال‌کردن flexbox */
+  justify-content: center !important; /* وسط‌چین افقی */
+  align-items: center !important; /* وسط‌چین عمودی */
+}
+
+/* ===== 🖌️ قاب‌ها و حاشیه‌ها (Border) ===== */
+.border {
+  border: 1px solid #000 !important;
+} /* قاب مشکی 1px دور المان */
+.border-0 {
+  border: none !important;
+} /* بدون قاب */
+.border-red {
+  border: 1px solid red !important;
+} /* قاب قرمز */
+.border-blue {
+  border: 1px solid blue !important;
+} /* قاب آبی */
+.border-green {
+  border: 1px solid green !important;
+} /* قاب سبز */
+
+/* ===== 🔹 گرد کردن گوشه‌ها (Border Radius) ===== */
+.radius-0 {
+  border-radius: 0 !important;
+} /* گوشه‌های تیز */
+.radius-sm {
+  border-radius: 5px !important;
+} /* گردی کوچک */
+.radius-md {
+  border-radius: 10px !important;
+} /* گردی متوسط */
+.radius-lg {
+  border-radius: 20px !important;
+} /* گردی بزرگ */
+.radius-full {
+  border-radius: 50% !important;
+} /* گرد کامل (دایره) */
+
+/* ===== 🌟 سایه‌ها (Box Shadow) ===== */
+.shadow-sm {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) !important;
+} /* سایه کوچک */
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+} /* سایه متوسط */
+.shadow-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4) !important;
+} /* سایه بزرگ */
+.shadow-xl {
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.5) !important;
+} /* سایه خیلی بزرگ */
+
+/* ===== 📐 عرض (Width Utilities) ===== */
+.w-25 {
+  width: 25% !important;
+} /* عرض ۲۵ درصدی */
+.w-50 {
+  width: 50% !important;
+} /* عرض ۵۰ درصدی */
+.w-75 {
+  width: 75% !important;
+} /* عرض ۷۵ درصدی */
+.w-100 {
+  width: 100% !important;
+} /* عرض کامل عنصر */
+.w-auto {
+  width: auto !important;
+} /* عرض خودکار بر اساس محتوا */
+
+/* ===== 📏 ارتفاع (Height Utilities) ===== */
+.h-25 {
+  height: 25% !important;
+} /* ارتفاع ۲۵ درصدی */
+.h-50 {
+  height: 50% !important;
+} /* ارتفاع ۵۰ درصدی */
+.h-75 {
+  height: 75% !important;
+} /* ارتفاع ۷۵ درصدی */
+.h-100 {
+  height: 100% !important;
+} /* ارتفاع کامل عنصر */
+.h-auto {
+  height: auto !important;
+} /* ارتفاع خودکار بر اساس محتوا */
+
+/* ===== 🔹 حداقل و حداکثر عرض و ارتفاع ===== */
+.min-w-100 {
+  min-width: 100px !important;
+} /* حداقل عرض ۱۰۰px */
+.max-w-500 {
+  max-width: 500px !important;
+} /* حداکثر عرض ۵۰۰px */
+.min-h-50 {
+  min-height: 50px !important;
+} /* حداقل ارتفاع ۵۰px */
+.max-h-300 {
+  max-height: 300px !important;
+} /* حداکثر ارتفاع ۳۰۰px */
+
+/* ===== 🖋️ وزن متن (Font Weight) ===== */
+.font-light {
+  font-weight: 300 !important;
+} /* متن سبک */
+.font-normal {
+  font-weight: 400 !important;
+} /* متن معمولی */
+.font-medium {
+  font-weight: 500 !important;
+} /* متن متوسط */
+.font-bold {
+  font-weight: 700 !important;
+} /* متن ضخیم */
+
+/* ===== 🌫️ شفافیت (Opacity) ===== */
+.opacity-0 {
+  opacity: 0 !important;
+} /* کاملاً نامرئی */
+.opacity-25 {
+  opacity: 0.25 !important;
+} /* ۲۵٪ شفافیت */
+.opacity-50 {
+  opacity: 0.5 !important;
+} /* ۵۰٪ شفافیت */
+.opacity-75 {
+  opacity: 0.75 !important;
+} /* ۷۵٪ شفافیت */
+.opacity-100 {
+  opacity: 1 !important;
+} /* کاملاً قابل مشاهده */
+
+/* ===== 👁️ مخفی کردن و نمایش (Visibility) ===== */
+.visible {
+  visibility: visible !important;
+} /* عنصر قابل مشاهده */
+.invisible {
+  visibility: hidden !important;
+} /* عنصر مخفی ولی فضا اشغال می‌کنه */
+.d-none {
+  display: none !important;
+} /* عنصر مخفی و فضا هم اشغال نمی‌کنه */
+
+/* ===== 🖱️ نشانگر موس (Cursor) ===== */
+.cursor-pointer {
+  cursor: pointer !important;
+} /* موس روی عنصر، دست نمایش میده */
+.cursor-default {
+  cursor: default !important;
+} /* موس روی عنصر، حالت معمولی نمایش میده */
+.cursor-move {
+  cursor: move !important;
+} /* موس برای حرکت دادن عنصر */
+.cursor-text {
+  cursor: text !important;
+} /* موس برای انتخاب متن */
+
+/* ===== 📱 ریسپانسیو – Media Queries ===== */
+@media (max-width: 600px) {
+  .d-sm-none {
+    display: none !important;
+  } /* عنصر روی موبایل پنهان شود */
+  .d-sm-block {
+    display: block !important;
+  } /* عنصر روی موبایل بلاک شود */
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+  .d-md-none {
+    display: none !important;
+  } /* عنصر روی تبلت پنهان شود */
+  .d-md-block {
+    display: block !important;
+  } /* عنصر روی تبلت نمایش داده شود */
+}
+
+@media (min-width: 993px) {
+  .d-lg-none {
+    display: none !important;
+  } /* عنصر روی دسکتاپ پنهان شود */
+  .d-lg-block {
+    display: block !important;
+  } /* عنصر روی دسکتاپ نمایش داده شود */
+}
+
+/* ===== ✨ افکت هایلایت و Hover ===== */
+
+/* تغییر پس‌زمینه هنگام رفتن موس روی المان */
+.hover-highlight-blue:hover {
+  background-color: rgba(33, 150, 243, 0.15) !important; /* آبی ملایم */
+  transition: background-color 0.3s ease; /* تغییر نرم رنگ */
+}
+
+hover-highlight-green:hover {
+  background-color: rgba(76, 175, 80, 0.15) !important; /* سبز ملایم */
+  transition: background-color 0.3s ease;
+}
+
+.hover-highlight-red:hover {
+  background-color: rgba(244, 67, 54, 0.15) !important; /* قرمز ملایم */
+  transition: background-color 0.3s ease;
+}
+
+.hover-highlight-gold:hover {
+  background-color: rgba(255, 215, 0, 0.2) !important; /* طلایی ملایم */
+  transition: background-color 0.3s ease;
+}
+
+.hover-highlight-gray:hover {
+  background-color: rgba(128, 128, 128, 0.15) !important; /* خاکستری ملایم */
+  transition: background-color 0.3s ease;
+}
+
+/* تغییر رنگ متن هنگام Hover */
+.text-hover-blue:hover {
+  color: #2196f3 !important;
+  transition: color 0.3s ease;
+}
+.text-hover-green:hover {
+  color: #4caf50 !important;
+  transition: color 0.3s ease;
+}
+.text-hover-red:hover {
+  color: #f44336 !important;
+  transition: color 0.3s ease;
+}
+.text-hover-gold:hover {
+  color: #ffd700 !important;
+  transition: color 0.3s ease;
+}
+.text-hover-gray:hover {
+  color: #9e9e9e !important;
+  transition: color 0.3s ease;
+}
+
+/* هایلایت همراه با سایه برای حس شناور شدن */
+.hover-shadow:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important; /* سایه زیر المان */
+  transform: translateY(-2px); /* کمی بالا آمدن المان */
+  transition: all 0.3s ease;
+}
+
+/* هایلایت ترکیبی رنگ و سایه */
+.hover-glow-blue:hover {
+  box-shadow: 0 0 15px rgba(33, 150, 243, 0.5) !important; /* درخشش آبی */
+  background-color: rgba(33, 150, 243, 0.1) !important;
+  transition: all 0.3s ease;
+}
+
+.hover-glow-gold:hover {
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5) !important; /* درخشش طلایی */
+  background-color: rgba(255, 215, 0, 0.15) !important;
+  transition: all 0.3s ease;
+}
